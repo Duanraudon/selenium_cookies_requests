@@ -9,10 +9,10 @@
 
 - 路径要加载正确  executable_path='你的路径'
 
-- ​    chrome_options = Options()
+- chrome_options = Options()
 
-​           chrome_options.add_argument('--headless')
+chrome_options.add_argument('--headless')
 
-​           chrome_options.add_argument('--disable-gpu')
+chrome_options.add_argument('--disable-gpu')
 
-​           如遇错误可注释这三行并删除参数chrome_options=chrome_options用以调试
+如遇错误可注释这三行并删除参数chrome_options=chrome_options用以调试
